@@ -10,6 +10,14 @@ namespace Test_Simple_Csharp_For
     {
         static void Main(string[] args)
         {
+            int i, j, s = 0;
+            for ( i = 1, j = 5; i < j; ++i, --j)
+            {
+                s += i;
+            }
+            Console.WriteLine(s);
+
+            Console.ReadKey();
         }
     }
 }
